@@ -10,15 +10,8 @@ define([
         // internal variables.
         addressAttr: "",
 
-        _setupEvents: function(element, className) {
-            logger.debug(this.id + "._setupEvents " + className);
-            this.connect(element, "click", lang.hitch(this, function(evt) {
-                if (!window.launchnavigator) {
-                    mx.ui.error("Unable to detect navigate PhoneGap functionality.");
-                    return;
-                }
-                this._onClickAction();
-            }));
+        _phoneGapCheck: function () {
+            return !!window.launchnavigator;
         },
 
         _onClickAction: function() {
