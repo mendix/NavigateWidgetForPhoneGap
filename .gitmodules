@@ -1,0 +1,3 @@
+[submodule "src/NavigateWidgetForPhoneGap/lib/AbstractPhoneGapWidget"]
+	path = src/NavigateWidgetForPhoneGap/lib/AbstractPhoneGapWidget
+	url = git@github.com:mendix/AbstractPhoneGapWidget.git
