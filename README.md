@@ -1,6 +1,6 @@
 # Navigate Widget For PhoneGap
 
-Navigate to an address in Phonegap, using
+Navigate to an address in Phonegap, using [PhoneGap Launch Navigator Plugin](https://github.com/dpa99c/phonegap-launch-navigator)
 
 ## Contributing
 
