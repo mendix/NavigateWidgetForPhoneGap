@@ -20,7 +20,12 @@ define([
             var error = function(error) {
                 alert(error);
             };
-            window.launchnavigator.navigate(address, null, success, error);
+
+            var options = {
+                errorCallback: error,
+                successCallback: success
+            }
+            window.launchnavigator.navigate(address, options);
         }
     });
 });
